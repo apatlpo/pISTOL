@@ -5,6 +5,7 @@
 Other relevant packages: 
 - [pyqg](https://github.com/crocha700/pyqg/blob/master/pyqg/qg_model.py)
 - [spectralDNS](https://github.com/spectralDNS/spectralDNS)
+- [shenfun_trial](https://github.com/apatlpo/shenfun_trial)
 
 Several cores: QuasiGeostrophic (QG), HYdrostatic (HY), Non-Hydrostatic (NH)
 
