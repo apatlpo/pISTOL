@@ -5,7 +5,7 @@
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 #SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = qgsolver_doc
+SPHINXPROJ    = pistol_doc
 SOURCEDIR     = source
 BUILDDIR      = build
 
