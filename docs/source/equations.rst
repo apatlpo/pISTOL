@@ -17,6 +17,35 @@ The latter is given by:
 
 .. math::
 
-   M_0 = g_{1/2} \eta
-   M_n = M_{n-1} + g_{n-1/2} \eta
+   z_0 = \eta
+
+   z_n = z_{n-1} - h_n, n > 0
+
+.. math::
+
+   M_0 = g \eta
+
+   M_n = M_{n-1} + g (\rho_{n}-\rho_{n-1}) z_n, n>0
+
+.. math::
+
+   p_n(x,y,z) = M_n(x,y) - g \rho_n z
+
+
+Thickness tendency equations:
+
+.. math::
+
+   \partial_t h_n(x,y) + \nabla \cdot (\mathbf{u}_n h_n )  = 0.
+
+
+Spectral discretization
+-----------------------
+
+
+QG formulation
+-----------------------
+
+
+
 
