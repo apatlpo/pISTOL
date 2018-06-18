@@ -25,11 +25,11 @@ The latter is given by:
 
    M_0 &= g \eta
 
-   M_n &= M_{n-1} + g (\rho_{n}-\rho_{n-1}) z_n, n>0
+   M_n &= M_{n-1} + g (\rho_{n}-\rho_{n-1})/\rho_n \times z_{n-1}, n>0
 
 .. math::
 
-   p_n(x,y,z) = M_n(x,y) - g \rho_n z
+   p_n(x,y,z) = \rho_n M_n(x,y) - g \rho_n z
 
 Thickness tendency equations:
 
@@ -37,7 +37,15 @@ Thickness tendency equations:
 
    \partial_t h_n(x,y) + \nabla \cdot (\mathbf{u}_n h_n )  = 0.
 
+
+.. image:: layers_notations.png
+   :scale: 70 %
+
+
 References: ...
+
+
+
 
 Spectral discretization
 -----------------------
